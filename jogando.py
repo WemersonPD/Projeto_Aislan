@@ -9,7 +9,13 @@ from time import sleep
 cores = ['red', 'purple', 'blue', 'green']
 
 
-def player_completo():
+
+
+
+def jogar():
+    os.system("cls" if os.name == "nt" else "clear")
+    
+    #PARA O PRIMEIRO PLAYER
     cabecalho()
     jogador1 = escolha_nome()
     desenhar_opcoes()
@@ -17,18 +23,27 @@ def player_completo():
     sleep(1.5)
     clear()
     pencolor('red')
-    write('PRIMEIRO PLAYER OK!')
+    goto(0,0)
+    write('PRIMEIRO PLAYER OK!', align='Center', font=('Arial',30))
     pencolor('black')
     sleep(1.5)
     clear()
 
-def jogar():
-    os.system("cls" if os.name == "nt" else "clear")
+
+    #PARA O SEGUNDO PLAYER
+    cabecalho()
+    jogador2 = escolha_nome()
+    desenhar_opcoes()
+    cor_player2 = escolha_player()
+    sleep(1.5)
+    clear()
+    pencolor('red')
+    goto(0,0)
+    write('SEGUNDO PLAYER OK!', align='Center', font=('Arial',30))
+    pencolor('black')
+    sleep(1.5)
+    clear()
     
-    #PARA O PRIMEIRO PLAYER
-    player1 = player_completo
-
-
 
     done()
 
