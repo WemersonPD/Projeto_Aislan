@@ -1,14 +1,12 @@
 from turtle import *
 from cores import *
 import os
-from escolha_player import escolha_player
-from desenha_opcoes import desenhar_opcoes
-from escolha_nome import escolha_nome
-from  cabecalho import cabecalho
+from Players.escolha_player import escolha_player
+from Players.desenha_opcoes import desenhar_opcoes
+from Players.escolha_nome import escolha_nome
+from  Players.cabecalho import cabecalho
 from time import sleep
 cores = ['red', 'purple', 'blue', 'green']
-
-
 
 
 
@@ -43,7 +41,11 @@ def jogar():
     pencolor('black')
     sleep(1.5)
     clear()
-    
 
+    '''print(jogador1)
+    print(jogador2)
+    cor_player1.showturtle()
+    cor_player2.showturtle()
+    cor_player1.goto(0, 50)'''
     done()
 
