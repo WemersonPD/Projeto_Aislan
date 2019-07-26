@@ -6,7 +6,8 @@ Trabalho de algoritmo e programação
   -Sair;
   
 Informações do jogo:
-  -Nome jogadores;
+  -Nome dos jogadores;
+  -escolha de personagem
   -Aposta;
   -Escolha de Personagem;
   
