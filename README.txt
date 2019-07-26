@@ -5,9 +5,11 @@ Trabalho de algoritmo e programação
   -Jogar;
   -Sair;
   
-Informações do jogo:
-  -Nome dos jogadores;
-  -escolha de personagem
+Jogando:
+  -ESCCOLHA DOS PLAYERS:
+      -Nome dos jogadores;
+      -escolha de personagem;
+  
   -Aposta;
   -Escolha de Personagem;
   
