@@ -42,10 +42,9 @@ def jogar():
     sleep(1.5)
     clear()
 
-    '''print(jogador1)
-    print(jogador2)
-    cor_player1.showturtle()
-    cor_player2.showturtle()
-    cor_player1.goto(0, 50)'''
+
+    
+
+    
     done()
 
