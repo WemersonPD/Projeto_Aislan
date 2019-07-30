@@ -1,6 +1,6 @@
 from turtle import *
 def escolha_nome():
-    pencolor('black')
+    pencolor('white')
     #nome do novo player
     nome = textinput("CORRIDA MALUCA","NOME DO JOGADOR:")
     
@@ -9,6 +9,6 @@ def escolha_nome():
     #Para não sobreescrever em cima de algo, anda pra baixo
     goto(a[0], a[1] - 40)
 
-    write('OLA, '+ nome,font=("Arial",14), align='center')
+    write('OLÁ, '+ nome,font=("Arial",14), align='center')
 
     return nome

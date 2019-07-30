@@ -7,7 +7,7 @@ def escolha_player():
     #Deixando a turtle invisivel por enquanto
     player_atual.hideturtle()
 
-    pencolor('black')
+    pencolor('white')
     
 
     cor_player = textinput('COR DO PLAYER', '(1 - VERMELHO, 2 - ROSA, 3 - AZUL, 4 - VERDE) ')
@@ -18,6 +18,6 @@ def escolha_player():
 
     #escolha da cor
     cor_player = int(cor_player) - 1
-    player_atual.color(cores[cor_player])
     
-    return player_atual
+    
+    return cor_player
